@@ -66,7 +66,6 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    # 'Home_Link.pipelines.JsonPipeline': 300,
     'Home_Link.pipelines.NoIdPipeline': 301,
     'Home_Link.pipelines.DuplicateIdPipeline': 302,
     'Home_Link.pipelines.DataBasePipeline': 303,
